@@ -29,6 +29,8 @@ int main()
         case '%':
             cout<<"Modulus of given numbers is : "<<num1%num2<<endl;
         break;
+        default:
+            cout << "Invalid operator!" << endl;
     }
     return 0;
 }
